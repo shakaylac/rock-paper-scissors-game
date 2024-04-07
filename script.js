@@ -18,7 +18,7 @@ function compRandom() {
   }
   
   function playerChoice() {
-    let choice = prompt('Make your choice!').trim();
+    //let choice = prompt('Make your choice!').trim();
     if (choice === 'rock' || choice === 'paper' || choice === 'scissors') {
       return choice;
     } else {

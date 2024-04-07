@@ -1,0 +1,9 @@
+label {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+input,label {
+margin: 1rem 0;
+}

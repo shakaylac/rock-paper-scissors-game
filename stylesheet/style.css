@@ -1,9 +1,17 @@
-label {
-    display: flex;
-    font-family: 'Courier New', Courier, monospace;
-    
+* {
+
 }
 
-input,label {
-margin: 1rem 0;
+
+
+label {
+    font-weight: bold;
+
+}
+
+
+button {
+    padding: 20px 40px;
+    border: none;
+    background-color: rgb(148, 139, 140);
 }

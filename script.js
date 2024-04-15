@@ -10,12 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
 function startGame(playerChoice) {
   const computerChoice = compChoice();
 
-  console.log('Player choice:', playerChoice);
-  console.log('Computer choice:', computerChoice);
+  document.getElementById('playerChoice').textContent = `Player's Choice: ${playerChoice}`;
+  document.getElementById('computerChoice').textContent = `Computer's choice: ${computerChoice}`;
 
   const result = determineWinner(playerChoice, computerChoice);
-  console.log(result);
+  document.getElementById('gameResult').textContent = `Results: ${result}`;
 }
+
+
+
 
 function compChoice() {
   const choices = ['rock', 'paper', 'scissors'];
